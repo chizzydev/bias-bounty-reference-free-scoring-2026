@@ -1,0 +1,16 @@
+{
+  "frozen_source_sha256": {
+    "v2_2_overture_features": "818CD6415B3D63E89B74730B105246092C60DBBE6C6043724FA57524D072FC89",
+    "v2_21_model": "B9BDE44FC0685F8178AD8A6D48F42CDC982A3B52B0650607E4DE421B2C04EE80"
+  },
+  "portability_adaptations": {
+    "src/overture_features.py": "Root changed from original local path to repository; optional single-region CLI flag changes REGIONS and EXPECTED_TOTAL; observed data SQL unchanged.",
+    "src/v2_21_frozen_model.py": "Only top-level workspace ROOT changed from historical local path to repository; prepare, score_fold, bounded_shortfall and fitting are unchanged."
+  },
+  "known_frozen_inputs": {
+    "features_sha256": "0C92ED6B38A5AD78F6406569765FB87AC311D93121D278ACD0AE6B51DBFE90A6",
+    "candidate_sha256": "25FEE2CF503B33C927778A9E506206F871D2F6E92D4FDE08FA3A15185BEDB753",
+    "zindi_uploaded_sha256": "D6DC4E8DD6C3D94D156049AC2364E289C38EE38E46BF3C1E37107F8F4E0C7C57"
+  },
+  "source_data_note": "The SHA256 fingerprints are for historically frozen local files; freshly generated CSV bytes can differ across platforms or library versions even when values match."
+}
